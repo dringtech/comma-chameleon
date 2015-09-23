@@ -7,7 +7,8 @@ var hot = new Handsontable(container, {
   colHeaders: true,
   rowHeaders: true,
   columnSorting: true,
-  contextMenu: false
+  contextMenu: false,
+  minSpareRows: 1
 });
 
 container.addEventListener('contextmenu', function (e) {
